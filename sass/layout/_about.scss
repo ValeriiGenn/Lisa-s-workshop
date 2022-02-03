@@ -1,0 +1,145 @@
+.about {
+    padding-top: 125px;
+    padding-bottom: 39px;
+    background: #fff5f6;
+    &__container {
+        @media screen and (min-width: 768px) {
+            background-image: none;
+            padding-top: 132px;
+            //padding-bottom: 65px;
+        }
+        @media screen and (min-width: 1200px) {
+            padding-top: 125px;
+            //padding-bottom: 65px;
+            background-image: url(../images/compr1280/sectionbg1x-min.png);
+        }
+        background-image: url(../images/compr480/sectionbg1-1x-min.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0 87%;
+    }
+    &__title {
+        @media screen and (min-width: 768px) {
+            font-size: 26px;
+            line-height: 30px;
+        }
+        font-family: Titan One;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--abttl-color);
+        margin-bottom: 15px;
+    }
+    &__preview {
+        @media screen and (min-width: 768px) {
+            font-size: 48px;
+            line-height: 55px;
+            margin-bottom: 50px;
+        }
+        font-family: Titan One;
+        font-size: 34px;
+        line-height: 39px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--abprvw-color);
+        margin-bottom: 26px;
+    }
+    &__content {
+        @media screen and (min-width: 768px) {
+            display: flex;
+            margin: 0;
+        }
+        //margin-right: 50px;
+    }
+    &__picture {
+        @media screen and (min-width: 1200px) {
+            margin-right: 71px;
+        }
+        margin-right: 17px;
+    }
+    &__wrap {
+        @media screen and (min-width: 768px) {
+            width: 360px;
+            // margin-bottom: 62px;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 463px;
+        }
+    }
+    &__signature {
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+            line-height: 176%;
+            margin-bottom: 49px;
+        }
+        @media screen and (min-width: 1200px) {
+            font-size: 16px;
+            line-height: 176%;
+            margin-bottom: 35px;
+        }
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 162%;
+        color: var(--black-color);
+        margin-top: 46px;
+        margin-bottom: 40px;
+    }
+    &__text {
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+            line-height: 176%;
+        }
+        @media screen and (min-width: 1200px) {
+            line-height: 194%;
+        }
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 162%;
+        color: var(--abtxt-color);
+        &--first {
+            @media screen and (min-width: 1200px) {
+                margin-bottom: 30px;
+            }
+            margin-bottom: 12px;
+        }
+        &--second {
+            @media screen and (min-width: 768px) {
+                margin-bottom: 64px;
+            }
+            @media screen and (min-width: 1200px) {
+                margin-bottom: 45px;
+            }
+            margin-bottom: 17px;
+        }
+    }
+    &__button {
+        @media screen and (min-width: 768px) {
+            margin: 0 auto;
+        }
+        display: inline-block;
+        text-align: center;
+        min-width: 176px;
+        height: 44px;
+        background: var(--white-color);
+        border-radius: 22px;
+        padding: 7px 14px;
+        margin-left: 20px;
+        margin-top: (--abprvw-color);
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: var(--abprvw-color);
+        background-color: var(--white-color);
+        border: none;
+    }
+    &__btn--icon {
+        margin-left: 13px;
+        display: inline-block;
+        width: 7px;
+        height: 10px;
+    }
+}
