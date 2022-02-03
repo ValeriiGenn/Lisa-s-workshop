@@ -1,5 +1,93 @@
 .hero-header {
-    background-color: var(--bgheher-color);
+    padding-top: 31px;
+    &__btn {
+        display: flex;
+        @media screen and (min-width: 1200px) {
+            display: none;
+        }
+        @media screen and (min-width: 768px) {
+            margin-left: 291px;
+            background-color: transparent;
+        }
+        border: 1px solid black;
+        background-color: var(--white-color);
+    }
+    &__nav {
+        display: flex;
+        @media screen and (min-width: 768px) {
+            margin-bottom: 15px;
+        }
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 84px;
+        }
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 137px;
+        &--list {
+            display: none;
+            @media screen and (min-width: 1200px) {
+                display: flex;
+            }
+        }
+        &--item:not(:last-child) {
+            margin-right: 35px;
+        }
+        &--link {
+            font-family: DM Sans;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            color: var(--white-color);
+        }
+        &--link:hover,
+         :focus {
+            color: var(--abprvw-color);
+            background-color: var(--bgheher-color);
+        }
+    }
+    &__navbtn {
+        @media screen and (min-width: 768px) {
+            margin-left: 30px;
+            width: 160px;
+            height: 44px;
+            background: var(--white-color);
+            border-radius: 22px;
+            border: none;
+            font-family: DM Sans;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 21px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--abprvw-color);
+        }
+        @media screen and (min-width: 1200px) {
+            width: 160px;
+            margin-left: 0;
+            margin-right: 78px;
+        }
+        display: none;
+    }
+    &__navbtn :hover,
+     :focus {
+        color: var(--abprvw-color);
+        background-color: var(--bgfcs-color);
+    }
+    &__filter {
+        @media screen and (min-width: 768px) {
+            margin-bottom: 66px;
+        }
+        @media screen and (min-width: 1200px) {
+            margin-left: 78px;
+        }
+    }
+}
+
+
+/*background-color: var(--bgheher-color);
     background-size: 346px;
     background-repeat: no-repeat;
     @media screen and (min-width: 768px) {
@@ -82,18 +170,7 @@
             background-repeat: no-repeat;
         }
     }
-    &__btn {
-        display: flex;
-        @media screen and (min-width: 1200px) {
-            display: none;
-        }
-        @media screen and (min-width: 768px) {
-            margin-left: 291px;
-            background-color: transparent;
-        }
-        border: none;
-        background-color: var(--bgheher-color);
-    }
+    
     &__wrapper-wrap {
         margin-bottom: 19px;
         @media screen and(min-width: 1200px) {
@@ -198,78 +275,7 @@
             display: none;
         }
     }
-    &__nav {
-        display: flex;
-        @media screen and (min-width: 768px) {
-            margin-bottom: 15px;
-        }
-        @media screen and (min-width: 1200px) {
-            margin-bottom: 84px;
-        }
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 137px;
-        &--list {
-            display: none;
-            @media screen and (min-width: 1200px) {
-                display: flex;
-            }
-        }
-        &--item:not(:last-child) {
-            margin-right: 35px;
-        }
-        &--link {
-            font-family: DM Sans;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 21px;
-            display: flex;
-            align-items: center;
-            color: var(--white-color);
-        }
-        &--link:hover,
-         :focus {
-            color: var(--abprvw-color);
-            background-color: var(--bgheher-color);
-        }
-    }
-    &__navbtn {
-        @media screen and (min-width: 768px) {
-            margin-left: 30px;
-            width: 160px;
-            height: 44px;
-            background: var(--white-color);
-            border-radius: 22px;
-            border: none;
-            font-family: DM Sans;
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 21px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--abprvw-color);
-        }
-        @media screen and (min-width: 1200px) {
-            width: 160px;
-            margin-left: 0;
-            margin-right: 78px;
-        }
-        display: none;
-    }
-    &__navbtn :hover,
-     :focus {
-        color: var(--abprvw-color);
-        background-color: var(--bgfcs-color);
-    }
-    &__filter {
-        @media screen and (min-width: 768px) {
-            margin-bottom: 66px;
-        }
-        @media screen and (min-width: 1200px) {
-            margin-left: 78px;
-        }
-    }
+   
     &__filter--list {
         display: flex;
     }
@@ -491,4 +497,4 @@
     100% {
         transform: scale(1);
     }
-}
+}*/
