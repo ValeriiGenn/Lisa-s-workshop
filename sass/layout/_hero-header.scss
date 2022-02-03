@@ -5,7 +5,14 @@
         height: 220px;
     }
     &__btn {
-        display: flex;
+        position: absolute;
+        width: 26px;
+        height: 10px;
+        right: 180px;
+        top: 40px;
+        background: linear-gradient( 0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10px, #fa3465 4px, #fa3465 7px);
+        border-radius: 2px;
+        /*display: flex;
         @media screen and (min-width: 1200px) {
             display: none;
         }
@@ -14,7 +21,7 @@
             background-color: transparent;
         }
         border: none;
-        background-color: var(--white-color);
+        background-color: var(--white-color);*/
     }
     &__nav {
         display: flex;
@@ -59,6 +66,30 @@
         text-align: center;
         text-transform: uppercase;
         color: var(--hhtitle-color);
+        &::before {
+            border: 1px solid black;
+            background-image: url(../images/mob/worktransp-min.png);
+        }
+    }
+    &__duplicate {
+        position: absolute;
+        width: 306px;
+        height: 82px;
+        left: 188px;
+        top: 140px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 135%;
+        /* or 41px */
+        text-align: center;
+        text-shadow: 0 0 0 white;
+        /* Параметры тени */
+        color: transparent;
+        text-transform: uppercase;
+        mix-blend-mode: hard-light;
+        opacity: 0.7;
+        //border: 0.8px solid #ffffff;
+        background-image: url(../images/mob/Rectangle13-min.png);
     }
     &__navbtn {
         @media screen and (min-width: 768px) {
