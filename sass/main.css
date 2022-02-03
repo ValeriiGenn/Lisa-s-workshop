@@ -35,13 +35,14 @@ body {
 }
 
 :root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --hhtitle-color: #1c2d59;
   --bg-color: rgba(255, 245, 246, 1);
   --cntnt-color: rgba(212, 20, 67, 1);
   --abttl-color: #ffa5ba;
   --abprvw-color: #d41443;
-  --black-color: #000000;
   --abtxt-color: #907e82;
-  --white-color: #ffffff;
   --advbg-color: #fff5f6;
   --bgheher-color: #ffb8ca;
   --ttlhh-color: #ffffff;
@@ -663,11 +664,16 @@ span.price {
   padding-top: 31px;
 }
 
+.hero-header__overlay {
+  width: 541px;
+  height: 220px;
+}
+
 .hero-header__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid black;
+  border: none;
   background-color: var(--white-color);
 }
 
@@ -694,7 +700,7 @@ span.price {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 137px;
+  margin-bottom: 67px;
 }
 
 @media screen and (min-width: 768px) {
@@ -743,6 +749,16 @@ span.price {
 .hero-header__nav :focus {
   color: var(--abprvw-color);
   background-color: var(--bgheher-color);
+}
+
+.hero-header__title {
+  width: 306px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--hhtitle-color);
 }
 
 .hero-header__navbtn {

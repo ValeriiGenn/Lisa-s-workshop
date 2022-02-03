@@ -1,5 +1,9 @@
 .hero-header {
     padding-top: 31px;
+    &__overlay {
+        width: 541px;
+        height: 220px;
+    }
     &__btn {
         display: flex;
         @media screen and (min-width: 1200px) {
@@ -9,7 +13,7 @@
             margin-left: 291px;
             background-color: transparent;
         }
-        border: 1px solid black;
+        border: none;
         background-color: var(--white-color);
     }
     &__nav {
@@ -22,7 +26,7 @@
         }
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 137px;
+        margin-bottom: 67px;
         &--list {
             display: none;
             @media screen and (min-width: 1200px) {
@@ -46,6 +50,15 @@
             color: var(--abprvw-color);
             background-color: var(--bgheher-color);
         }
+    }
+    &__title {
+        width: 306px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 43px;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--hhtitle-color);
     }
     &__navbtn {
         @media screen and (min-width: 768px) {
