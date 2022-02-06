@@ -3,6 +3,11 @@
     &__overlay {
         width: 541px;
         height: 220px;
+        &::before {
+            z-index: 1;
+            border: 1px solid black;
+            background-image: url(../images/mob/worktransp-min.png);
+        }
     }
     &__btn {
         position: absolute;
@@ -65,13 +70,12 @@
         line-height: 43px;
         text-align: center;
         text-transform: uppercase;
-        color: var(--hhtitle-color);
-        &::before {
-            border: 1px solid black;
-            background-image: url(../images/mob/worktransp-min.png);
-        }
+        -webkit-text-stroke: 1px var(--h1-color);
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 -16px 0 var(--shadtitle-color);
+        background-color: violet;
     }
-    &__duplicate {
+    /*&__duplicate {
         position: absolute;
         width: 306px;
         height: 82px;
@@ -80,17 +84,17 @@
         font-weight: bold;
         font-size: 30px;
         line-height: 135%;
-        /* or 41px */
+        
         text-align: center;
         text-shadow: 0 0 0 white;
-        /* Параметры тени */
+        
         color: transparent;
         text-transform: uppercase;
         mix-blend-mode: hard-light;
         opacity: 0.7;
         //border: 0.8px solid #ffffff;
         background-image: url(../images/mob/Rectangle13-min.png);
-    }
+    }*/
     &__navbtn {
         @media screen and (min-width: 768px) {
             margin-left: 30px;

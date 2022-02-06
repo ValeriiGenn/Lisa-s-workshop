@@ -37,7 +37,7 @@ body {
 :root {
   --white-color: #ffffff;
   --black-color: #000000;
-  --hhtitle-color: #1c2d59;
+  --shadtitle-color: #1c2d59;
   --bg-color: rgba(255, 245, 246, 1);
   --cntnt-color: rgba(212, 20, 67, 1);
   --abttl-color: #ffa5ba;
@@ -54,6 +54,7 @@ body {
   --bglnk-color: #fea5bb;
   --bgsgntr-color: #fafafa;
   --bgscrll-color: rgba(88%, 47%, 57%, 0.6);
+  --h1-color: rgba(255, 255, 255, 0.7);
 }
 
 .visually-hidden {
@@ -662,11 +663,37 @@ span.price {
 
 .hero-header {
   padding-top: 31px;
+  /*&__duplicate {
+        position: absolute;
+        width: 306px;
+        height: 82px;
+        left: 188px;
+        top: 140px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 135%;
+        
+        text-align: center;
+        text-shadow: 0 0 0 white;
+        
+        color: transparent;
+        text-transform: uppercase;
+        mix-blend-mode: hard-light;
+        opacity: 0.7;
+        //border: 0.8px solid #ffffff;
+        background-image: url(../images/mob/Rectangle13-min.png);
+    }*/
 }
 
 .hero-header__overlay {
   width: 541px;
   height: 220px;
+}
+
+.hero-header__overlay::before {
+  z-index: 1;
+  border: 1px solid black;
+  background-image: url(../images/mob/worktransp-min.png);
 }
 
 .hero-header__btn {
@@ -757,32 +784,10 @@ span.price {
   line-height: 43px;
   text-align: center;
   text-transform: uppercase;
-  color: var(--hhtitle-color);
-}
-
-.hero-header__title::before {
-  border: 1px solid black;
-  background-image: url(../images/mob/worktransp-min.png);
-}
-
-.hero-header__duplicate {
-  position: absolute;
-  width: 306px;
-  height: 82px;
-  left: 188px;
-  top: 140px;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 135%;
-  /* or 41px */
-  text-align: center;
-  text-shadow: 0 0 0 white;
-  /* Параметры тени */
-  color: transparent;
-  text-transform: uppercase;
-  mix-blend-mode: hard-light;
-  opacity: 0.7;
-  background-image: url(../images/mob/Rectangle13-min.png);
+  -webkit-text-stroke: 1px var(--h1-color);
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 -16px 0 var(--shadtitle-color);
+  background-color: violet;
 }
 
 .hero-header__navbtn {
