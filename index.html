@@ -17,35 +17,35 @@
 </head>
 
 <body>
-    <header class="hero-header">
-        <div class="container hero-header__container">
-            <nav class="hero-header__nav">
-                <a href="./index.html" class="hero-header__nav--logo">
+    <header class="header hero-header__overlay">
+        <div class="container header__container">
+            <nav class="header__nav">
+                <a href="./index.html" class="header__nav--logo">
                     <img src="./images/mob/logom-min.png" alt="logo" />
                 </a>
-                <ul class="hero-header__nav--list">
-                    <li class="hero-header__nav--item">
-                        <a href=" " class="hero-header__nav--link">Home</a>
+                <ul class="header__nav--list">
+                    <li class="header__nav--item">
+                        <a href=" " class="header__nav--link">Home</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#about " class="header__nav--link">About us</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#about " class="header__nav--link">How it’s made?</a>
                     </li>
                     <li class="hero-header__nav--item">
-                        <a href="#about " class="hero-header__nav--link">About us</a>
+                        <a href="#products " class="header__nav--link">Our products</a>
                     </li>
                     <li class="hero-header__nav--item">
-                        <a href="#about " class="hero-header__nav--link">How it’s made?</a>
-                    </li>
-                    <li class="hero-header__nav--item">
-                        <a href="#products " class="hero-header__nav--link">Our products</a>
-                    </li>
-                    <li class="hero-header__nav--item">
-                        <a href="#contact " class="hero-header__nav--link">Contact</a>
+                        <a href="#contact " class="header__nav--link">Contact</a>
                     </li>
                 </ul>
-                <button type="button" class="hero-header__btn mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <button type="button" class="header__btn mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
             <svg width="26"height="10"aria-label="Переключатель мобильного меню">
               <use class="mobile-menu__button--open-icon"href="./images/symbol-defs.svg#icon-Unionm"></use>
             </svg>
           </button>
-                <button type="button" class=" hero-header__navbtn" id="myBtn">
+                <button type="button" class=" header__navbtn" id="myBtn">
         Buy now<svg
           class="mobile-menu__button--order-icon"
           width="5px "
@@ -55,13 +55,17 @@
         </svg>
       </button>
             </nav>
+    </header>
+    <main>
+        <!--герой-->
+        <section class="hero hero__overlay">
+            <div class="hero__container">
+                <h1 class="hero__title">Мастерская</br> Лизы Кравцовой</h1>
 
-            <div class="hero-header__overlay">
-                <h1 class="hero-header__title">Мастерская</br> Лизы Кравцовой</h1>
 
 
             </div>
-            <div class="hero-header__filter">
+            <!-- <div class="hero-header__filter">
                 <ul class="hero-header__filter--list">
                     <li>
                         <button class="button hero-header__button--red" data-modal-open>
@@ -76,17 +80,17 @@
                 </ul>
 
             </div>
-            <div class="hero-header__wrap">
-                <p class="hero-header__wrap--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                <a class="button hero-header__wrap--button" href="">
-                    <svg class="hero-header__wrap--button-icon">
+
+        <div class="hero-header__wrap">
+            <p class="hero-header__wrap--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            <a class="button hero-header__wrap--button" href="">
+                <svg class="hero-header__wrap--button-icon">
                   <use href="./images/symbol-defs.svg#icon-arrow-right2"></use>
                 </svg>
-                </a>
-            </div>
+            </a>
         </div>
-    </header>
-    <main>
+        </div>-->
+        </section>
         <!--секція продукція-->
         <section id="products" class="products">
             <h2 class="visually-hidden">Products</h2>

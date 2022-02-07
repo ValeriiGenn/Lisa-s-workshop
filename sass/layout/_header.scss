@@ -1,14 +1,5 @@
-.hero-header {
+.header {
     padding-top: 31px;
-    &__overlay {
-        width: 541px;
-        height: 220px;
-        &::before {
-            z-index: 1;
-            border: 1px solid black;
-            background-image: url(../images/mob/worktransp-min.png);
-        }
-    }
     &__btn {
         position: absolute;
         width: 26px;
@@ -63,17 +54,9 @@
             background-color: var(--bgheher-color);
         }
     }
-    &__title {
-        width: 306px;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 43px;
-        text-align: center;
-        text-transform: uppercase;
-        -webkit-text-stroke: 1px var(--h1-color);
-        -webkit-text-fill-color: transparent;
-        text-shadow: 0 -16px 0 var(--shadtitle-color);
-        background-color: violet;
+    &__grad {
+        width: 300px;
+        height: 300px;
     }
     /*&__duplicate {
         position: absolute;

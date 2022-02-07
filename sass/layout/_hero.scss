@@ -1,0 +1,29 @@
+.hero {
+    padding-top: 146px;
+    padding-bottom: 60px;
+    width: 541px;
+    //height: 220px;
+    &__overlay {
+        position: relative;
+        background-image: url(../images/mob/Rectangle13-min.png), url(../images/mob/Group3-min.png), url(/images/mob/Vector8-min.png), url(../images/mob/Ellipse25-min.png), url(../images/mob/Vector17-min.png), url(../images/mob/Rectangle37-min.png), url(../images/mob/Vector16-min.png), url(../images/mob/Vector7-min.png);
+        background-position: 85px 182px, 230px 70px, 180px 95px, 105px 87px, 85px 140px, 203px 125px, 90px 230px, 310px 75px;
+        background-repeat: no-repeat;
+    }
+    &__container {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 306px;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 43px;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px var(--h1-color);
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 -16px 0 var(--shadtitle-color);
+        // background-color: violet;
+    }
+}
