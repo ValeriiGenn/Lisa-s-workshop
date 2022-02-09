@@ -24,6 +24,51 @@
         -webkit-text-stroke: 1px var(--h1-color);
         -webkit-text-fill-color: transparent;
         text-shadow: 0 -16px 0 var(--shadtitle-color);
-        // background-color: violet;
+        margin-bottom: 63px;
+        &--end {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 116%;
+            text-align: center;
+            color: var(--endtxt-color);
+            margin-bottom: 9px;
+        }
+    }
+    &__slogan {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--sltxt-color);
+        margin-bottom: 15px;
+    }
+    &__call {
+        font-size: 11px;
+        line-height: 17px;
+        text-align: center;
+        color: var(--sltxt-color);
+        margin-bottom: 22px;
+    }
+    &__list {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    &__item {
+        &:not(:last-child) {
+            margin-right: 11px;
+        }
+    }
+    &__link {
+        width: 133px;
+        font-size: 12px;
+        line-height: 17px;
+        padding: 3px 15px;
+        color: var(--link-color);
+    }
+    &__link--red {
+        width: 105px;
+        height: 24px;
+        color: var(--white-color);
+        background-color: var(--red-color);
     }
 }

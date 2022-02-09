@@ -35,6 +35,10 @@ body {
 }
 
 :root {
+  --red-color: #f93264;
+  --link-color: #595858;
+  --endtxt-color: #00213c;
+  --sltxt-color: #152836;
   --white-color: #ffffff;
   --black-color: #000000;
   --shadtitle-color: #1c2d59;
@@ -83,17 +87,9 @@ body {
   margin-left: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1920px) {
   .container {
-    width: 768px;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
+    width: 1920px;
   }
 }
 
@@ -1266,6 +1262,61 @@ span.price {
   -webkit-text-stroke: 1px var(--h1-color);
   -webkit-text-fill-color: transparent;
   text-shadow: 0 -16px 0 var(--shadtitle-color);
+  margin-bottom: 63px;
+}
+
+.hero__title--end {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 116%;
+  text-align: center;
+  color: var(--endtxt-color);
+  margin-bottom: 9px;
+}
+
+.hero__slogan {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--sltxt-color);
+  margin-bottom: 15px;
+}
+
+.hero__call {
+  font-size: 11px;
+  line-height: 17px;
+  text-align: center;
+  color: var(--sltxt-color);
+  margin-bottom: 22px;
+}
+
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__item:not(:last-child) {
+  margin-right: 11px;
+}
+
+.hero__link {
+  width: 133px;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 3px 15px;
+  color: var(--link-color);
+}
+
+.hero__link--red {
+  width: 105px;
+  height: 24px;
+  color: var(--white-color);
+  background-color: var(--red-color);
 }
 
 .products {
