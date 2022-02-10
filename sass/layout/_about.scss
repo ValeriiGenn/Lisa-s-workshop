@@ -1,93 +1,97 @@
 .about {
-    padding-top: 125px;
     padding-bottom: 39px;
-    background: #fff5f6;
-    &__container {
-        @media screen and (min-width: 768px) {
-            background-image: none;
-            padding-top: 132px;
-            //padding-bottom: 65px;
-        }
-        @media screen and (min-width: 1200px) {
-            padding-top: 125px;
-            //padding-bottom: 65px;
-            background-image: url(../images/compr1280/sectionbg1x-min.png);
-        }
-        background-image: url(../images/compr480/sectionbg1-1x-min.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 0 87%;
-    }
+    background: var(--white-color);
+    text-align: left;
     &__title {
-        @media screen and (min-width: 768px) {
-            font-size: 26px;
-            line-height: 30px;
-        }
-        font-family: Titan One;
-        font-size: 18px;
-        line-height: 21px;
-        text-align: center;
-        text-transform: uppercase;
-        color: var(--abttl-color);
-        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 23px;
+        //text-align: left;
+        color: var(--endtxt-color);
+        margin-bottom: 7px;
     }
-    &__preview {
-        @media screen and (min-width: 768px) {
-            font-size: 48px;
-            line-height: 55px;
-            margin-bottom: 50px;
-        }
-        font-family: Titan One;
-        font-size: 34px;
-        line-height: 39px;
-        text-align: center;
+    &__preface {
+        font-size: 11px;
+        line-height: 16px;
         letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: var(--abprvw-color);
-        margin-bottom: 26px;
+        color: var(--prfctxt-color);
+        margin-bottom: 11px;
+        &--span {
+            color: var(--blue-color);
+        }
+    }
+    &__text {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 17px;
+        color: var(--prfctxt-color);
+        margin-bottom: 14px;
+    }
+    &__question {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 23px;
+        color: var(--endtxt-color);
+        margin-bottom: 11px;
     }
     &__content {
-        @media screen and (min-width: 768px) {
-            display: flex;
-            margin: 0;
-        }
-        //margin-right: 50px;
-    }
-    &__picture {
-        @media screen and (min-width: 1200px) {
-            margin-right: 71px;
-        }
-        margin-right: 17px;
+        position: relative;
+        padding-top: 4px;
+        padding-left: 6px;
+        margin-left: 63px;
+        margin-bottom: 32px;
+        background-image: url(../images/mob/Rectangle56-min.png);
+        background-repeat: no-repeat;
     }
     &__wrap {
-        @media screen and (min-width: 768px) {
-            width: 360px;
-            // margin-bottom: 62px;
-        }
         @media screen and (min-width: 1200px) {
             width: 463px;
         }
+        position: absolute;
+        width: 176px;
+        left: 21px;
+        bottom: -16px;
+        padding-left: 10px;
+        background-color: var(--white-color);
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 16px;
+        color: var(--name-color);
     }
     &__signature {
-        @media screen and (min-width: 768px) {
-            font-size: 14px;
-            line-height: 176%;
-            margin-bottom: 49px;
-        }
         @media screen and (min-width: 1200px) {
             font-size: 16px;
             line-height: 176%;
             margin-bottom: 35px;
         }
-        font-family: DM Sans;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 162%;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 136%;
         color: var(--black-color);
-        margin-top: 46px;
-        margin-bottom: 40px;
     }
-    &__text {
+    &__list {
+        display: flex;
+    }
+    &__item {
+        position: relative;
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+    &__card {
+        width: 142px;
+    }
+    &__wrapp {
+        position: absolute;
+        width: 153px;
+        left: 3px;
+        bottom: -28px;
+        padding-left: 9px;
+        background-color: var(--white-color);
+    }
+    /*&__text {
         @media screen and (min-width: 768px) {
             font-size: 14px;
             line-height: 176%;
@@ -115,7 +119,7 @@
             }
             margin-bottom: 17px;
         }
-    }
+    }*/
     &__button {
         @media screen and (min-width: 768px) {
             margin: 0 auto;

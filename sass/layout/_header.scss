@@ -1,5 +1,10 @@
 .header {
     padding-top: 31px;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     &__btn {
         position: absolute;
         width: 26px;
@@ -21,15 +26,11 @@
     }
     &__nav {
         display: flex;
-        @media screen and (min-width: 768px) {
-            margin-bottom: 15px;
-        }
         @media screen and (min-width: 1200px) {
             margin-bottom: 84px;
         }
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 67px;
         &--list {
             display: none;
             @media screen and (min-width: 1200px) {
@@ -53,10 +54,6 @@
             color: var(--abprvw-color);
             background-color: var(--bgheher-color);
         }
-    }
-    &__grad {
-        width: 300px;
-        height: 300px;
     }
     /*&__duplicate {
         position: absolute;

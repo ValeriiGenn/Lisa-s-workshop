@@ -18,12 +18,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80px;
-        height: 80px;
-        border-radius: 40px;
-        border: 5px solid var(--cntnt-color);
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        border: 2px solid var(--cntnt-color);
         background-color: var(--bg-color);
         cursor: pointer;
+        opacity: 0.6;
     }
 }
 

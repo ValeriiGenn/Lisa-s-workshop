@@ -1,6 +1,6 @@
 .hero {
     padding-top: 146px;
-    padding-bottom: 60px;
+    padding-bottom: 101px;
     width: 541px;
     //height: 220px;
     &__overlay {
@@ -53,11 +53,11 @@
         justify-items: center;
         align-items: center;
     }
-    &__item {
+    /* &__item {
         &:not(:last-child) {
             margin-right: 11px;
         }
-    }
+    }*/
     &__link {
         width: 133px;
         font-size: 12px;
