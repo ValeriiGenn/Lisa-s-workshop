@@ -83,7 +83,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 375px;
   padding-left: 40px;
   padding-right: 40px;
   margin-right: auto;
@@ -700,9 +700,9 @@ span.price {
   position: absolute;
   width: 26px;
   height: 10px;
-  right: 180px;
+  right: 50px;
   top: 40px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10px, #fa3465 4px, #fa3465 7px);
+  background-color: var(--white-color);
   border-radius: 2px;
   /*display: flex;
         @media screen and (min-width: 1200px) {
@@ -1248,17 +1248,17 @@ span.price {
 }
 
 .hero__overlay {
+  max-width: 100%;
   position: relative;
   background-image: url(../images/mob/Ellipse16-min.png), url(../images/mob/Ellipse15-min.png), url(../images/mob/Ellipse14-min.png), url(../images/mob/Ellipse13-min.png), url(../images/mob/Ellipse11-min.png), url(../images/mob/Rectangle28-min.png), url(../images/mob/Ellipse12-min.png), url(../images/mob/Rectangle17-min.png), url(../images/mob/Group2-min.png), url(../images/mob/Vector2-min.png), url(../images/mob/Vector1-min.png), url(../images/mob/Ellipse23-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Rectangle29-min.png), url(../images/mob/Vector5-min.png), url(../images/mob/Ellipse26-min.png), url(../images/mob/Vector10-min.png), url(../images/mob/Vector9-min.png), url(../images/mob/Ellipse17-min.png), url(../images/mob/Vector18-min.png), url(../images/mob/Vector12-min.png), url(../images/mob/Vector15-min.png), url(../images/mob/Vector11-min.png), url(../images/mob/Rectangle13-min.png), url(../images/mob/Group3-min.png), url(../images/mob/Vector8-min.png), url(../images/mob/Vector6-min.png), url(../images/mob/Vector14-min.png), url(../images/mob/Vector13-min.png), url(../images/mob/Ellipse25-min.png), url(../images/mob/Ellipse27-min.png), url(../images/mob/Vector17-min.png), url(../images/mob/Rectangle37-min.png), url(../images/mob/Vector16-min.png), url(../images/mob/MaskGroup-min.png), url(../images/mob/Vector7-min.png), url(../images/mob/Vector4-min.png), url(../images/mob/MaskGrouprigth-min.png), url(../images/mob/Vector3-min.png);
-  background-position: 368px 102px, 382px 102px, 396px 102px, 410px 102px, 424px 102px, 422px 96px, 438px 102px, 457px 188px, 361px 221px, 395px 215px, 415px 198px, 86px 262px, 84px 140px, 84px 135px, 84px 130px, 84px 125px, 84px 120px, 84px 115px, 84px 110px, 84px 105px, 104px 106px, 146px 108px, 276px 218px, 317px 115px, 360px 114px, 245px 138px, 300px 169px, 216px 200px, 390px 155px, 85px 182px, 230px 70px, 180px 95px, 314px 150px, 255px 214px, 202px 200px, 105px 87px, 85px 171px, 85px 140px, 203px 125px, 90px 230px, 84px 178px, 310px 75px, 395px 106px, 406px 124px, 441px 115px;
+  background-position: 283px 102px, 297px 102px, 311px 102px, 325px 102px, 339px 102px, 337px 96px, 353px 102px, 372px 188px, 276px 221px, 310px 215px, 330px 198px, 1px 262px, -1px 140px, -1px 135px, -1px 130px, -1px 125px, -1px 120px, -1px 115px, -1px 110px, -1px 105px, 19px 106px, 61px 108px, 191px 218px, 232px 115px, 275px 114px, 160px 138px, 215px 169px, 131px 200px, 305px 155px, 0px 182px, 145px 70px, 95px 95px, 229px 150px, 170px 214px, 117px 200px, 20px 87px, 0px 171px, 0px 140px, 118px 125px, 5px 230px, -1px 178px, 225px 75px, 310px 106px, 321px 124px, 356px 115px;
   background-repeat: no-repeat;
 }
 
 .hero__container {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   width: 306px;
+  margin-left: 33px;
 }
 
 .hero__title {
@@ -1898,6 +1898,7 @@ span.price {
 }
 
 .about__content {
+  width: 183px;
   position: relative;
   padding-top: 4px;
   padding-left: 6px;
@@ -1920,6 +1921,14 @@ span.price {
   .about__wrap {
     width: 463px;
   }
+}
+
+.about__image {
+  width: 171px;
+}
+
+.about__img {
+  width: 142px;
 }
 
 .about__name {

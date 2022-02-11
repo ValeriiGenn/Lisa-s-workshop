@@ -35,6 +35,7 @@
         margin-bottom: 11px;
     }
     &__content {
+        width: 183px;
         position: relative;
         padding-top: 4px;
         padding-left: 6px;
@@ -53,6 +54,12 @@
         bottom: -16px;
         padding-left: 10px;
         background-color: var(--white-color);
+    }
+    &__image {
+        width: 171px;
+    }
+    &__img {
+        width: 142px;
     }
     &__name {
         font-weight: 600;
