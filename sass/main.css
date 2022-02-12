@@ -1264,7 +1264,7 @@ span.price {
   height: 31px;
   right: 10px;
   bottom: -104px;
-  background-image: url(/images/icons/MaskGroupm.svg);
+  background-image: url(../images/icons/MaskGroupm.svg);
   background-repeat: no-repeat;
 }
 
@@ -1275,7 +1275,7 @@ span.price {
   height: 31px;
   right: 10px;
   bottom: -80px;
-  background-image: url(/images/icons/MaskGrouptopm.svg);
+  background-image: url(../images/icons/MaskGrouptopm.svg);
   background-repeat: no-repeat;
 }
 
@@ -1317,6 +1317,7 @@ span.price {
 }
 
 .hero__list {
+  margin-left: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

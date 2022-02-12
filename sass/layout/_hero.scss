@@ -25,7 +25,7 @@
             height: 31px;
             right: 10px;
             bottom: -104px;
-            background-image: url(/images/icons/MaskGroupm.svg);
+            background-image: url(../images/icons/MaskGroupm.svg);
             background-repeat: no-repeat;
         }
         &::before {
@@ -35,7 +35,7 @@
             height: 31px;
             right: 10px;
             bottom: -80px;
-            background-image: url(/images/icons/MaskGrouptopm.svg);
+            background-image: url(../images/icons/MaskGrouptopm.svg);
             background-repeat: no-repeat;
         }
     }
@@ -73,6 +73,7 @@
         margin-bottom: 22px;
     }
     &__list {
+        margin-left: 18px;
         display: flex;
         justify-items: center;
         align-items: center;
