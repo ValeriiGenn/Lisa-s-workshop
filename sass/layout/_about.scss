@@ -2,6 +2,11 @@
     padding-bottom: 39px;
     background: var(--white-color);
     text-align: left;
+    &__container {
+        background-image: url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse34-min.png), url(../images/mob/Rectangle50-min.png), url(../images/mob/Ellipse37-min.png), url(../images/mob/Rectangle49-min.png), url(/images/mob/MGgreenblack.svg);
+        background-position: 326px 17px, 269px 83px, 326px 83px, 326px 159px, 326px 150px, 280px 211px;
+        background-repeat: no-repeat;
+    }
     &__title {
         font-weight: 600;
         font-size: 16px;
@@ -11,6 +16,8 @@
         margin-bottom: 7px;
     }
     &__preface {
+        width: 276px;
+        font-weight: 400;
         font-size: 11px;
         line-height: 16px;
         letter-spacing: 0.04em;
@@ -26,6 +33,12 @@
         line-height: 17px;
         color: var(--prfctxt-color);
         margin-bottom: 14px;
+        &--span {
+            width: 267px;
+        }
+    }
+    &__text-span {
+        width: 236px;
     }
     &__question {
         font-weight: 600;
