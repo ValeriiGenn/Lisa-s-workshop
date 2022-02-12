@@ -1881,7 +1881,7 @@ span.price {
 }
 
 .about__container {
-  background-image: url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse34-min.png), url(../images/mob/Rectangle50-min.png), url(../images/mob/Ellipse37-min.png), url(../images/mob/Rectangle49-min.png), url(/images/mob/MGgreenblack.svg);
+  background-image: url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse34-min.png), url(../images/mob/Rectangle50-min.png), url(../images/mob/Ellipse37-min.png), url(../images/mob/Rectangle49-min.png), url(../images/mob/MGgreenblack.svg);
   background-position: 326px 17px, 269px 83px, 326px 83px, 326px 159px, 326px 150px, 280px 211px;
   background-repeat: no-repeat;
 }
