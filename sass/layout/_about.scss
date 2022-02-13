@@ -1,11 +1,21 @@
 .about {
-    padding-bottom: 39px;
+    padding-bottom: 71px;
     background: var(--white-color);
     text-align: left;
     &__container {
-        background-image: url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse34-min.png), url(../images/mob/Rectangle50-min.png), url(../images/mob/Ellipse37-min.png), url(../images/mob/Rectangle49-min.png), url(../images/mob/MGgreenblack.svg), url(../images/mob/Ellipse35-min.png), url(../images/mob/Rectangle51-min.png), url(../images/mob/Ellipse43-min.png), url(../images/mob/Ellipse42-min.png), url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse40.svg);
-        background-position: 326px 17px, 269px 83px, 326px 83px, 326px 159px, 326px 150px, 280px 211px, 326px 210px, 326px 210px, 282px 287px, 293px 287px, 326px 350px, 326px 410px, 326px 350px;
+        background-image: url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse34-min.png), url(../images/mob/Rectangle50-min.png), url(../images/mob/Ellipse37-min.png), url(../images/mob/Rectangle49-min.png), url(../images/mob/MGgreenblack.svg), url(../images/mob/Ellipse35-min.png), url(../images/mob/Rectangle51-min.png), url(../images/mob/Ellipse43-min.png), url(../images/mob/Ellipse42-min.png), url(/images/mob/Ellipse39-1.svg), url(../images/mob/Ellipse40.svg), url(../images/mob/Rectangle53.svg), url(../images/mob/Rectangle54.svg), url(../images/mob/Ellipse41.svg);
+        background-position: 326px 17px, 269px 83px, 326px 83px, 326px 159px, 326px 150px, 280px 211px, 326px 210px, 326px 210px, 282px 287px, 293px 287px, 319px 328px, 319px 383px, 319px 328px, 319px 383px, 319px 439px;
         background-repeat: no-repeat;
+        &::after {
+            position: absolute;
+            content: "";
+            width: 31px;
+            //height: 31px;
+            right: 10px;
+            bottom: -30px;
+            background-image: url(../images/icons/Ellipse44m.svg);
+            background-repeat: no-repeat;
+        }
     }
     &__title {
         font-weight: 600;
@@ -92,7 +102,18 @@
         color: var(--black-color);
     }
     &__list {
+        position: relative;
         display: flex;
+        &::after {
+            position: absolute;
+            content: "";
+            width: 31px;
+            height: 16px;
+            right: -11px;
+            bottom: -47px;
+            background-image: url(../images/icons/Ellipse44m.svg);
+            background-repeat: no-repeat;
+        }
     }
     &__item {
         position: relative;
@@ -111,36 +132,7 @@
         padding-left: 9px;
         background-color: var(--white-color);
     }
-    /*&__text {
-        @media screen and (min-width: 768px) {
-            font-size: 14px;
-            line-height: 176%;
-        }
-        @media screen and (min-width: 1200px) {
-            line-height: 194%;
-        }
-        font-family: DM Sans;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 162%;
-        color: var(--abtxt-color);
-        &--first {
-            @media screen and (min-width: 1200px) {
-                margin-bottom: 30px;
-            }
-            margin-bottom: 12px;
-        }
-        &--second {
-            @media screen and (min-width: 768px) {
-                margin-bottom: 64px;
-            }
-            @media screen and (min-width: 1200px) {
-                margin-bottom: 45px;
-            }
-            margin-bottom: 17px;
-        }
-    }*/
-    &__button {
+    /*&__button {
         @media screen and (min-width: 768px) {
             margin: 0 auto;
         }
@@ -165,5 +157,5 @@
         display: inline-block;
         width: 7px;
         height: 10px;
-    }
+    }*/
 }

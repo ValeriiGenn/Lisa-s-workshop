@@ -1846,43 +1846,50 @@ span.price {
 }
 
 .about {
-  padding-bottom: 39px;
+  padding-bottom: 71px;
   background: var(--white-color);
   text-align: left;
-  /*&__text {
+  /*&__button {
         @media screen and (min-width: 768px) {
-            font-size: 14px;
-            line-height: 176%;
+            margin: 0 auto;
         }
-        @media screen and (min-width: 1200px) {
-            line-height: 194%;
-        }
-        font-family: DM Sans;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 162%;
-        color: var(--abtxt-color);
-        &--first {
-            @media screen and (min-width: 1200px) {
-                margin-bottom: 30px;
-            }
-            margin-bottom: 12px;
-        }
-        &--second {
-            @media screen and (min-width: 768px) {
-                margin-bottom: 64px;
-            }
-            @media screen and (min-width: 1200px) {
-                margin-bottom: 45px;
-            }
-            margin-bottom: 17px;
-        }
+        display: inline-block;
+        text-align: center;
+        min-width: 176px;
+        height: 44px;
+        background: var(--white-color);
+        border-radius: 22px;
+        padding: 7px 14px;
+        margin-left: 20px;
+        margin-top: (--abprvw-color);
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: var(--abprvw-color);
+        background-color: var(--white-color);
+        border: none;
+    }
+    &__btn--icon {
+        margin-left: 13px;
+        display: inline-block;
+        width: 7px;
+        height: 10px;
     }*/
 }
 
 .about__container {
-  background-image: url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse34-min.png), url(../images/mob/Rectangle50-min.png), url(../images/mob/Ellipse37-min.png), url(../images/mob/Rectangle49-min.png), url(../images/mob/MGgreenblack.svg), url(../images/mob/Ellipse35-min.png), url(../images/mob/Rectangle51-min.png), url(../images/mob/Ellipse43-min.png), url(../images/mob/Ellipse42-min.png), url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse40.svg);
-  background-position: 326px 17px, 269px 83px, 326px 83px, 326px 159px, 326px 150px, 280px 211px, 326px 210px, 326px 210px, 282px 287px, 293px 287px, 326px 350px, 326px 410px, 326px 350px;
+  background-image: url(../images/mob/Ellipse39-min.png), url(../images/mob/Ellipse34-min.png), url(../images/mob/Rectangle50-min.png), url(../images/mob/Ellipse37-min.png), url(../images/mob/Rectangle49-min.png), url(../images/mob/MGgreenblack.svg), url(../images/mob/Ellipse35-min.png), url(../images/mob/Rectangle51-min.png), url(../images/mob/Ellipse43-min.png), url(../images/mob/Ellipse42-min.png), url(/images/mob/Ellipse39-1.svg), url(../images/mob/Ellipse40.svg), url(../images/mob/Rectangle53.svg), url(../images/mob/Rectangle54.svg), url(../images/mob/Ellipse41.svg);
+  background-position: 326px 17px, 269px 83px, 326px 83px, 326px 159px, 326px 150px, 280px 211px, 326px 210px, 326px 210px, 282px 287px, 293px 287px, 319px 328px, 319px 383px, 319px 328px, 319px 383px, 319px 439px;
+  background-repeat: no-repeat;
+}
+
+.about__container::after {
+  position: absolute;
+  content: "";
+  width: 31px;
+  right: 10px;
+  bottom: -30px;
+  background-image: url(../images/icons/Ellipse44m.svg);
   background-repeat: no-repeat;
 }
 
@@ -1989,9 +1996,21 @@ span.price {
 }
 
 .about__list {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.about__list::after {
+  position: absolute;
+  content: "";
+  width: 31px;
+  height: 16px;
+  right: -11px;
+  bottom: -47px;
+  background-image: url(../images/icons/Ellipse44m.svg);
+  background-repeat: no-repeat;
 }
 
 .about__item {
@@ -2013,37 +2032,6 @@ span.price {
   bottom: -28px;
   padding-left: 9px;
   background-color: var(--white-color);
-}
-
-.about__button {
-  display: inline-block;
-  text-align: center;
-  min-width: 176px;
-  height: 44px;
-  background: var(--white-color);
-  border-radius: 22px;
-  padding: 7px 14px;
-  margin-left: 20px;
-  margin-top: --abprvw-color;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: var(--abprvw-color);
-  background-color: var(--white-color);
-  border: none;
-}
-
-@media screen and (min-width: 768px) {
-  .about__button {
-    margin: 0 auto;
-  }
-}
-
-.about__btn--icon {
-  margin-left: 13px;
-  display: inline-block;
-  width: 7px;
-  height: 10px;
 }
 
 .advantages {
