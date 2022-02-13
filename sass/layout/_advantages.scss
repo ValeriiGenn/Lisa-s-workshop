@@ -1,24 +1,132 @@
 .advantages {
-  //width: 375px;
+  width: 375px;
+  height: 1556px;
+  padding-top: 30px;
+  background-image: url(../images/mob/Vector-min.png),
+    url(../images/mob/Vectorgr-min.png), url(../images/mob/Vectorgrl-min.png),
+    url(../images/mob/Vectorsir-min.png),
+    url(../images/mob/Vectorblbotlef-min.png),
+    url(../images/mob/Vectorbotsir-min.png), url(../images/mob/yelbot-min.png),
+    url(../images/mob/Vectorgrbot-min.png), url(../images/mob/Vyelltop-min.png),
+    url(/images/mob/Veyelr-min.png), url(../images/mob/blutopright-min.png),
+    linear-gradient(
+      180deg,
+      var(--name-color) 58%,
+      var(--white-color) 58%,
+      var(--white-color)
+    );
+  background-position: 3px 0, 3px 0, 3px 0px, 3px 304px, 3px 813px, 80px 788px,
+    145px 780px, 3px 292px, 316px 0, 263px 487px, 257px 0;
+  background-repeat: no-repeat;
 
   margin: 0 auto;
   font-size: 14px;
   line-height: 20px;
   color: var(--white-color);
 
-  width: 100%;
   &__span {
     color: var(--span-color);
   }
-  &__container {
-    width: 375px;
-    //background-image: ;
-  }
+  /* &__container {
+    
+   
+  }*/
   &__overlay {
-    padding: 30px 40px 103px;
     width: 375px;
     height: 911px;
-    background-color: var(--name-color);
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 60px;
+  }
+  &__one {
+    position: relative;
+    margin-bottom: 47px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 15px;
+      height: 19px;
+      left: 0;
+      top: -24px;
+      background-image: url(../images/mob/01.-min.png);
+      background-repeat: no-repeat;
+      border-bottom: 2px solid var(--black-color);
+    }
+  }
+  &__two {
+    position: relative;
+    //font-size: 14px;
+    margin-bottom: 30px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 19px;
+      height: 22px;
+      left: 0;
+      top: -25px;
+      background-image: url(../images/mob/02.-min.png);
+      background-repeat: no-repeat;
+      border-bottom: 2px solid var(--black-color);
+    }
+  }
+  &__three {
+    position: relative;
+    //font-size: 14px;
+    margin-bottom: 30px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 20px;
+      height: 22px;
+      left: 0;
+      top: -25px;
+      background-image: url(../images/mob/03.-min.png);
+      background-repeat: no-repeat;
+      border-bottom: 2px solid var(--black-color);
+    }
+  }
+  &__four {
+    position: relative;
+    margin-bottom: 35px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 19px;
+      height: 22px;
+      left: 0;
+      top: -25px;
+      background-image: url(../images/mob/04.-min.png);
+      background-repeat: no-repeat;
+      border-bottom: 2px solid var(--black-color);
+    }
+  }
+  &__five {
+    position: relative;
+    //font-size: 14px;
+    margin-bottom: 46px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 18px;
+      height: 22px;
+      left: 0;
+      top: -25px;
+      background-image: url(../images/mob/05.-min.png);
+      background-repeat: no-repeat;
+      border-bottom: 2px solid var(--black-color);
+    }
+  }
+  &__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 13px;
+  }
+  &__text {
+    //font-size: 14px;
   }
 }
 /* &__list {
