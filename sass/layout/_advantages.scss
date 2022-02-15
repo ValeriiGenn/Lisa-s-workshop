@@ -23,7 +23,13 @@
         var(--white-color) 59%,
         var(--white-color)
       );
-    /*@media (min-device-pixel-ratio: 2),
+    background-position: 3px 0px, 3px 0px, 3px 0px, 3px 304px, 3px 829px,
+      80px 804px, 342px 780px, 292px 826px, 318px 826px, 314px 780px,
+      340px 816px, 335px 816px, 328px 798px, 364px 804px, 277px 795px,
+      189px 796px, 3px 292px, 316px 0px, 267px 487px, 257px 0px, 173px 409px;
+    background-repeat: no-repeat;
+  }
+  /*@media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     screen and (min-width: 375px) and (min-resolution: 192dpi),
     screen and (min-width: 375px) and (min-resolution: 2dppx) {
@@ -49,12 +55,7 @@
         var(--white-color)
       );
   }*/
-    background-position: 3px 0px, 3px 0px, 3px 0px, 3px 304px, 3px 829px,
-      80px 804px, 342px 780px, 292px 826px, 318px 826px, 314px 780px,
-      340px 816px, 335px 816px, 328px 798px, 364px 804px, 277px 795px,
-      189px 796px, 3px 292px, 316px 0px, 267px 487px, 257px 0px, 173px 409px;
-    background-repeat: no-repeat;
-  }
+
   margin: 0 auto;
   font-size: 14px;
   line-height: 20px;
