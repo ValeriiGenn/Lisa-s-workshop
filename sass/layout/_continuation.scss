@@ -1,0 +1,97 @@
+.continuation{
+
+    &__content {
+    width: 201px;
+    position: relative;
+
+    //margin-left: 87px;
+    //margin-bottom: 30px;
+  }
+  &__wrap {
+    @media screen and (min-width: 1200px) {
+      width: 463px;
+    }
+    position: absolute;
+    width: 197px;
+    left: 8px;
+    bottom: 6px;
+    padding-left: 6px;
+    background-color: var(--white-color);
+  }
+  &__image {
+    width: 201px;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    color: var(--endtxt-color);
+  }
+  &__signature {
+    @media screen and (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 176%;
+      margin-bottom: 35px;
+    }
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 136%;
+    color: var(--sgntr-color);
+  }
+
+ &__list {
+position: relative;
+margin-left: 47px;
+
+    
+  }
+  &__item {
+      position: absolute;
+    width: 201px;
+    //height: 156px;
+    &--one{
+        top: -50px;
+    }
+
+    &:not(:last-child) {
+      
+      margin-bottom: 30px;
+    }
+  }}
+ /* &__content {
+    @media screen and (min-width: 768px) {
+      font-size: 48px;
+      line-height: 55px;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 58px;
+      line-height: 66px;
+    }
+    font-family: Titan One;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 41px;
+    line-height: 1;
+    letter-spacing: 0.04;
+    margin-bottom: 13px;
+    color: var(--cntnt-color);
+  }
+  &__signature {
+    @media screen and (min-width: 768px) {
+      width: 180px;
+      font-size: 14px;
+      line-height: 174%;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 330px;
+      font-size: 16px;
+      line-height: 176%;
+    }
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 170%;
+    color: var(--black-color);
+  }/*
