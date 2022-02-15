@@ -3,16 +3,16 @@
   width: 375px;
   height: 1556px;
   padding-top: 30px;
-  background-image: linear-gradient(
-    180deg,
-    var(--name-color) 59%,
-    var(--white-color) 59%,
-    var(--white-color)
-  );
+
   &--overlay {
-    background-image: url(../images/mob/Vector-min.png),
-      url(../images/mob/Vectorgr-min.png), url(../images/mob/Vectorgrl-min.png),
-      url(../images/mob/Vectorsir-min.png),
+    background-image: linear-gradient(
+        180deg,
+        var(--name-color) 59%,
+        var(--white-color) 59%,
+        var(--white-color)
+      ),
+      url(../images/mob/Vector-min.png), url(../images/mob/Vectorgr-min.png),
+      url(../images/mob/Vectorgrl-min.png), url(../images/mob/Vectorsir-min.png),
       url(../images/mob/Vectorblbotlef-min.png),
       url(../images/mob/Vectorbotsir-min.png), url(../images/mob/G5-min.png),
       url(../images/mob/G10-min.png), url(../images/mob/G11-min.png),
