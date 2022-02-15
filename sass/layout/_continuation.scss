@@ -1,6 +1,19 @@
-.continuation{
-
-    &__content {
+.continuation {
+  position: relative;
+  &__container {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 53px;
+      height: 53px;
+      left: 0px;
+      bottom: -641px;
+      background-image: url(../images/mob/Ell37-min.png);
+      background-repeat: no-repeat;
+    }
+  }
+  &__content {
     width: 201px;
     position: relative;
 
@@ -14,7 +27,7 @@
     position: absolute;
     width: 197px;
     left: 8px;
-    bottom: 6px;
+    bottom: -14px;
     padding-left: 6px;
     background-color: var(--white-color);
   }
@@ -40,58 +53,56 @@
     color: var(--sgntr-color);
   }
 
- &__list {
-position: relative;
-margin-left: 47px;
-
-    
+  &__list {
+    position: relative;
+    margin-left: 47px;
   }
   &__item {
-      position: absolute;
+    position: absolute;
     width: 201px;
     //height: 156px;
-    &--one{
-        top: -50px;
+    &--one {
+      top: -75px;
     }
-
-    &:not(:last-child) {
-      
-      margin-bottom: 30px;
+    &--two {
+      top: 90px;
     }
-  }}
- /* &__content {
-    @media screen and (min-width: 768px) {
-      font-size: 48px;
-      line-height: 55px;
+    &--three {
+      top: 255px;
     }
-    @media screen and (min-width: 1200px) {
-      font-size: 58px;
-      line-height: 66px;
-    }
-    font-family: Titan One;
-    font-style: Regular;
-    font-size: 36px;
-    line-height: 41px;
-    line-height: 1;
-    letter-spacing: 0.04;
-    margin-bottom: 13px;
-    color: var(--cntnt-color);
   }
-  &__signature {
-    @media screen and (min-width: 768px) {
-      width: 180px;
-      font-size: 14px;
-      line-height: 174%;
-    }
-    @media screen and (min-width: 1200px) {
-      width: 330px;
-      font-size: 16px;
-      line-height: 176%;
-    }
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
+  &__wrapp {
+    position: absolute;
+    top: 427px;
+    left: 27px;
+    text-align: center;
+    padding-bottom: 28px;
+  }
+  &__title {
+    //border: 1px solid #000000;
+    //box-sizing: border-box;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 14px;
+    font-size: 16px;
+  }
+  &__description {
+    margin-bottom: 14px;
+    font-size: 10px;
+    width: 284px;
+  }
+  &__descript {
+    width: 280px;
+    font-size: 10px;
+    margin-bottom: 12px;
+    color: var(--link-color);
+  }
+  &__link {
+    width: 105px;
+    height: 24px;
     font-size: 12px;
-    line-height: 170%;
-    color: var(--black-color);
-  }/*
+    line-height: 17px;
+    padding: 3px 15px;
+    color: var(--white-color);
+    background-color: var(--red-color);
+  }
+}
