@@ -1,8 +1,9 @@
 .advantages {
   display: block;
   width: 375px;
-  height: 1556px;
+  height: 911px;
   padding-top: 30px;
+  background-color: var(--name-color);
 
   &--overlay {
     background-image: url(../images/mob/Vector-min.png),
@@ -17,13 +18,7 @@
       url(../images/mob/yelbot-min.png), url(../images/mob/Vectorgrbot-min.png),
       url(../images/mob/Vyelltop-min.png), url(../images/mob/Veyelr-min.png),
       url(../images/mob/blutopright-min.png),
-      url(../images/mob/blubottrigth-min.png),
-      linear-gradient(
-        180deg,
-        var(--name-color) 59%,
-        var(--white-color) 59%,
-        var(--white-color)
-      );
+      url(../images/mob/blubottrigth-min.png);
     background-position: 3px 0px, 3px 0px, 3px 0px, 3px 304px, 3px 829px,
       80px 804px, 342px 780px, 292px 826px, 318px 826px, 314px 780px,
       340px 816px, 335px 816px, 328px 798px, 364px 804px, 277px 795px,
