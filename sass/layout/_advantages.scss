@@ -161,7 +161,7 @@
   &__text {
     margin-bottom: 23px;
   }
-  &__content {
+  /*&__content {
     width: 201px;
     position: relative;
 
@@ -259,10 +259,10 @@
     font-size: 12px;
     line-height: 170%;
     color: var(--black-color);
-  }
+  }*/
 }
 
-.first::before {
+/*.first::before {
   content: "";
   display: inline-block;
   width: 33px;
