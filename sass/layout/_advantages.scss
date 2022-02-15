@@ -4,8 +4,8 @@
   padding-top: 30px;
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
-    screen and (min-width: 480px) and (min-resolution: 192dpi),
-    screen and (min-width: 480px) and (min-resolution: 2dppx) {
+    screen and (min-width: 375px) and (min-resolution: 192dpi),
+    screen and (min-width: 375px) and (min-resolution: 2dppx) {
     background-image: url(../images/mob/Vector-min.png),
       url(../images/mob/Vectorgr-min.png), url(../images/mob/Vectorgrl-min.png),
       url(../images/mob/Vectorsir-min.png),
