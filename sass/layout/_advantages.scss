@@ -4,7 +4,7 @@
   height: 1556px;
   padding-top: 30px;
 
-  /*background-image: url(../images/mob/Vector-min.png),
+  background-image: url(../images/mob/Vector-min.png),
     url(../images/mob/Vectorgr-min.png), url(../images/mob/Vectorgrl-min.png),
     url(../images/mob/Vectorsir-min.png),
     url(../images/mob/Vectorblbotlef-min.png),
@@ -22,8 +22,8 @@
       var(--name-color) 59%,
       var(--white-color) 59%,
       var(--white-color)
-    );*/
-  @media (min-device-pixel-ratio: 2),
+    );
+  /*@media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     screen and (min-width: 375px) and (min-resolution: 192dpi),
     screen and (min-width: 375px) and (min-resolution: 2dppx) {
@@ -48,7 +48,7 @@
         var(--white-color) 59%,
         var(--white-color)
       );
-  }
+  }*/
   background-position: 3px 0px, 3px 0px, 3px 0px, 3px 304px, 3px 829px,
     80px 804px, 342px 780px, 292px 826px, 318px 826px, 314px 780px, 340px 816px,
     335px 816px, 328px 798px, 364px 804px, 277px 795px, 189px 796px, 3px 292px,
