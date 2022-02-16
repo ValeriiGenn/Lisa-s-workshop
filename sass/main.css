@@ -662,6 +662,16 @@ span.price {
   }
 }
 
+.link {
+  width: 105px;
+  height: 24px;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 3px 15px;
+  color: var(--white-color);
+  background-color: var(--red-color);
+}
+
 .header {
   padding-top: 31px;
   /*&__duplicate {
@@ -1238,11 +1248,6 @@ span.price {
   padding-bottom: 101px;
   width: 375px;
   margin: 0 auto;
-  /* &__item {
-        &:not(:last-child) {
-            margin-right: 11px;
-        }
-    }*/
 }
 
 .hero__overlay {
@@ -2196,52 +2201,9 @@ span.price {
   margin-bottom: 23px;
 }
 
-/*.first::before {
-  content: "";
-  display: inline-block;
-  width: 33px;
-  height: 50px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 36px;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 40px;
-  }
-  margin-bottom: 16px;
-  background-image: url("../images/icon1-min.png");
-}
-
-.second::before {
-  content: "";
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 36px;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 40px;
-  }
-  margin-bottom: 16px;
-  background-image: url("../images/icon2-min.png");
-}
-
-.third::before {
-  content: "";
-  display: inline-block;
-  width: 44px;
-  height: 50px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 36px;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 40px;
-  }
-  margin-bottom: 16px;
-  background-image: url("../images/icon3-min.png");
-}*/
 .continuation {
   position: relative;
+  height: 650px;
 }
 
 .continuation__container {
@@ -2362,6 +2324,42 @@ span.price {
   padding: 3px 15px;
   color: var(--white-color);
   background-color: var(--red-color);
+}
+
+.biographi {
+  text-align: left;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.biographi__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 12px;
+  color: var(--endtxt-color);
+}
+
+.biographi__greeting {
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+
+.biographi__introduction {
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.biographi__text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.biographi__text--span {
+  font-weight: 600;
+  color: var(--blue-color);
 }
 
 .gallery {

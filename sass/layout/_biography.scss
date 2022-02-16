@@ -1,0 +1,31 @@
+.biographi {
+  text-align: left;
+  font-size: 11px;
+  line-height: 16px;
+  &__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 12px;
+
+    color: var(--endtxt-color);
+  }
+  &__greeting {
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 5px;
+  }
+  &__introduction {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    &--span {
+      font-weight: 600;
+      color: var(--blue-color);
+    }
+  }
+}
