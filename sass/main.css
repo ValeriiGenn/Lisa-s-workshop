@@ -2458,6 +2458,10 @@ span.price {
   height: 76px;
 }
 
+.course {
+  padding-top: 30px;
+}
+
 .gallery {
   max-width: 100%;
   display: block;
