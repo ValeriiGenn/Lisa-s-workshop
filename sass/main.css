@@ -2357,6 +2357,8 @@ span.price {
 
 .biography__image {
   position: absolute;
+  top: -5px;
+  right: -7px;
   width: 212px;
   height: 211px;
 }
