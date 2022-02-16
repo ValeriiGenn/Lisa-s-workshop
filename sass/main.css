@@ -35,6 +35,7 @@ body {
 }
 
 :root {
+  --yellou-color: #fdc812;
   --sgntr-color: #ea557b;
   --span-color: #260e4d;
   --name-color: #fa3465;
@@ -2344,11 +2345,20 @@ span.price {
   font-size: 12px;
   line-height: 17px;
   margin-bottom: 5px;
+  margin-left: 15px;
 }
 
 .biography__introduction {
   font-size: 12px;
   line-height: 17px;
+  margin-left: 27px;
+  margin-bottom: 13px;
+}
+
+.biography__image {
+  position: absolute;
+  width: 212px;
+  height: 211px;
 }
 
 .biography__text {
@@ -2360,6 +2370,15 @@ span.price {
 .biography__text--span {
   font-weight: 600;
   color: var(--blue-color);
+}
+
+.biography__wrap {
+  position: relative;
+  width: 221px;
+  height: 220px;
+  margin-left: 27px;
+  margin-bottom: 10px;
+  border: 2px solid var(--yellou-color);
 }
 
 .gallery {

@@ -14,10 +14,18 @@
     font-size: 12px;
     line-height: 17px;
     margin-bottom: 5px;
+    margin-left: 15px;
   }
   &__introduction {
     font-size: 12px;
     line-height: 17px;
+    margin-left: 27px;
+    margin-bottom: 13px;
+  }
+  &__image {
+    position: absolute;
+    width: 212px;
+    height: 211px;
   }
   &__text {
     font-weight: 500;
@@ -27,5 +35,13 @@
       font-weight: 600;
       color: var(--blue-color);
     }
+  }
+  &__wrap {
+    position: relative;
+    width: 221px;
+    height: 220px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    border: 2px solid var(--yellou-color);
   }
 }
