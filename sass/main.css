@@ -35,6 +35,7 @@ body {
 }
 
 :root {
+  --brdr-color: #7538ff;
   --yellou-color: #fdc812;
   --sgntr-color: #ea557b;
   --span-color: #260e4d;
@@ -59,7 +60,6 @@ body {
   --bgfcs-color: #ecebeb;
   --bgcf-color: #f0d1a5;
   --bgfd-color: #c2e297;
-  --brdr-color: #e1e1e1;
   --bgbtn-color: #d41342;
   --bglnk-color: #fea5bb;
   --bgsgntr-color: #fafafa;
@@ -2328,6 +2328,7 @@ span.price {
 }
 
 .biography {
+  padding-bottom: 15px;
   text-align: left;
   font-size: 11px;
   line-height: 16px;
@@ -2410,6 +2411,51 @@ span.price {
   margin-left: 27px;
   margin-bottom: 10px;
   border: 2px solid var(--yellou-color);
+}
+
+.documents {
+  padding-top: 63px;
+  padding-bottom: 82px;
+  background-image: url(../images/mob/Ellipse35-min.png), url(../images/mob/Rectangle51-min.png), url(../images/mob/Ellipse39-1.svg), url(../images/mob/Rectangle53.svg), url(../images/mob/Ellipse40.svg), url(../images/mob/Rectangle54.svg), url(../images/mob/Ellipse41.svg), url(../images/mob/Ellipse43-min.png), url(../images/mob/Ellipse42-min.png), url(../images/mob/MGyellgreenrotat.svg), url(../images/mob/Ellipse77.svg), url(../images/mob/Rectangle51.svg), url(../images/mob/Ellipse75.svg), url(../images/mob/Rectangle51.svg), url(../images/mob/Ellipse37-min.png), url(../images/mob/Ellipse44.svg), url(../images/mob/Rectangle50.svg);
+  background-position: 270px -4px, 270px -4px, 326px 58px, 326px 58px, 326px 106px, 326px 106px, 326px 154px, 265px 232px, 294px 232px, 33px 238px, 0px 282px, 0px 328px, 71px 371px, 0px 395px, 46px 395px, 6px 441px, 0px 441px;
+  background-repeat: no-repeat;
+}
+
+.documents__wrap {
+  padding: 8px;
+  width: 275px;
+  height: 166px;
+  margin: 0 10px 60px;
+  border: 2px solid var(--brdr-color);
+}
+
+.documents__image {
+  width: 255px;
+  height: 146px;
+}
+
+.documents__wrapp {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.documents__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.documents__item:nth-child(even) {
+  margin-top: 38px;
+}
+
+.documents__item:not(:last-child) {
+  margin-right: 1px;
+}
+
+.documents__img {
+  width: 54px;
+  height: 76px;
 }
 
 .gallery {
