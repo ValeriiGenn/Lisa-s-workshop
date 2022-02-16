@@ -2354,7 +2354,7 @@ span.price {
   height: 50px;
   left: -30px;
   bottom: -11px;
-  background-image: url(/images/mob/MGyellgre-min.png);
+  background-image: url(../images/mob/MGyellgre-min.png);
   background-repeat: no-repeat;
 }
 
@@ -2460,6 +2460,10 @@ span.price {
 
 .course {
   padding-top: 30px;
+}
+
+.course__title {
+  font-weight: 600;
 }
 
 .gallery {
