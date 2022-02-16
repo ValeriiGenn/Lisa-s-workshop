@@ -2326,13 +2326,13 @@ span.price {
   background-color: var(--red-color);
 }
 
-.biographi {
+.biography {
   text-align: left;
   font-size: 11px;
   line-height: 16px;
 }
 
-.biographi__title {
+.biography__title {
   font-weight: 600;
   font-size: 16px;
   line-height: 23px;
@@ -2340,24 +2340,24 @@ span.price {
   color: var(--endtxt-color);
 }
 
-.biographi__greeting {
+.biography__greeting {
   font-size: 12px;
   line-height: 17px;
   margin-bottom: 5px;
 }
 
-.biographi__introduction {
+.biography__introduction {
   font-size: 12px;
   line-height: 17px;
 }
 
-.biographi__text {
+.biography__text {
   font-weight: 500;
   font-size: 11px;
   line-height: 16px;
 }
 
-.biographi__text--span {
+.biography__text--span {
   font-weight: 600;
   color: var(--blue-color);
 }
