@@ -2491,6 +2491,11 @@ span.price {
   margin-bottom: 11px;
 }
 
+.course__titlethirdmod {
+  margin-left: 23px;
+  margin-bottom: 8px;
+}
+
 .course__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2500,13 +2505,32 @@ span.price {
 
 .course__wrap {
   position: relative;
-  margin-right: 19px;
+  margin-right: 16px;
+  width: 79px;
+  height: 105px;
+}
+
+.course__secondwrap {
+  position: relative;
   width: 79px;
   height: 105px;
 }
 
 .course__secondwrapp {
   margin-left: 10px;
+}
+
+.course__imgfmod {
+  width: 79px;
+  height: 105px;
+}
+
+.course__imgsmod {
+  position: absolute;
+  top: -14px;
+  left: 7px;
+  width: 79px;
+  height: 105px;
 }
 
 .course__imgfmodu {
@@ -2517,8 +2541,17 @@ span.price {
   height: 57px;
 }
 
+.course__imgsmodu {
+  position: absolute;
+  top: 49px;
+  left: -3px;
+  width: 76px;
+  height: 57px;
+}
+
 .course__signature {
   position: relative;
+  width: 220px;
   margin-bottom: 7px;
 }
 
@@ -2529,12 +2562,13 @@ span.price {
   height: 6px;
   left: -10px;
   bottom: 39px;
-  background-image: url(./images/mob/Ellipse49.svg);
+  background-image: url(../images/mob/Ellipse49.svg);
   background-repeat: no-repeat;
 }
 
 .course__secondsignature {
   position: relative;
+  width: 214px;
   margin-bottom: 7px;
 }
 
@@ -2545,7 +2579,24 @@ span.price {
   height: 6px;
   left: -10px;
   bottom: 30px;
-  background-image: url(./images/mob/Ellipse50.svg);
+  background-image: url(../images/mob/Ellipse50.svg);
+  background-repeat: no-repeat;
+}
+
+.course__thirdsignature {
+  position: relative;
+  width: 213px;
+  margin-bottom: 7px;
+}
+
+.course__thirdsignature::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  left: -10px;
+  bottom: 22px;
+  background-image: url(../images/mob/Ellipse50.svg);
   background-repeat: no-repeat;
 }
 
@@ -2605,6 +2656,33 @@ span.price {
   font-size: 10px;
   line-height: 14px;
   margin-right: 7px;
+}
+
+.course__title-thematic {
+  margin-top: 54px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--endtxt-color);
+  border-bottom: 0.4px solid var(--endtxt-color);
+}
+
+.course__title-sample {
+  width: 316px;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.course__link-sample {
+  width: 131px;
+  height: 21px;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-size: 10px;
+  line-height: 14px;
+  margin-left: 94px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .gallery {
