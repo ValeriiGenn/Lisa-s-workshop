@@ -1,7 +1,132 @@
 .course {
   padding-top: 30px;
+  font-size: 11px;
+  line-height: 148.5%;
 
   &__title {
     font-weight: 600;
+    color: var(--endtxt-color);
+  }
+
+  &__text {
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 3px;
+  }
+
+  &__title-base {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--endtxt-color);
+    border-bottom: 0.4px solid var(--endtxt-color);
+  }
+
+  &__titlefirstmod {
+    margin-left: 23px;
+    margin-bottom: 6px;
+  }
+
+  &__titlesecondmod {
+    margin-bottom: 11px;
+  }
+
+  &__wrapper {
+    display: flex;
+    padding-bottom: 18px;
+
+  }
+
+  &__wrap {
+    position: relative;
+    margin-right: 19px;
+    width: 79px;
+    height: 105px;
+  }
+
+  &__secondwrapp {
+    margin-left: 10px;
+  }
+
+  &__imgfmodu {
+    position: absolute;
+    top: 66px;
+    left: 10px;
+    width: 76px;
+    height: 57px;
+  }
+
+  &__signature {
+    position: relative;
+    margin-bottom: 7px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 6px;
+      height: 6px;
+      left: -10px;
+      bottom: 39px;
+      background-image: url(./images/mob/Ellipse49.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__secondsignature {
+    position: relative;
+   
+    margin-bottom: 7px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 6px;
+      height: 6px;
+      left: -10px;
+      bottom: 30px;
+      background-image: url(./images/mob/Ellipse50.svg);
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__linkfmod {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 10px;
+    color: var(--black-color);
+  }
+
+  &__imglinkfmod {
+    margin-left: 5px;
+  }
+
+  &__wrapwrap {
+    margin-left: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__secondwrapwrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  &__link {
+    width: 91px;
+    height: 19.2px;
+    padding: 3px 14px;
+    font-size: 9px;
+    line-height: 13px;
+
+  }
+
+  &__price {
+    font-size: 10px;
+    line-height: 14px;
+    margin-right: 7px;
+
   }
 }
