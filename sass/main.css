@@ -2460,6 +2460,7 @@ span.price {
 
 .course {
   padding-top: 30px;
+  padding-bottom: 18px;
   font-size: 11px;
   line-height: 148.5%;
 }
@@ -2496,6 +2497,11 @@ span.price {
   margin-bottom: 8px;
 }
 
+.course__title-thematicautumn {
+  margin-left: 23px;
+  margin-bottom: 8px;
+}
+
 .course__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2508,6 +2514,10 @@ span.price {
   margin-right: 16px;
   width: 79px;
   height: 105px;
+}
+
+.course__wrap--autumn {
+  margin-right: 19px;
 }
 
 .course__secondwrap {
@@ -2549,6 +2559,10 @@ span.price {
   height: 57px;
 }
 
+.course__imgsmodu--spring {
+  top: 50px;
+}
+
 .course__signature {
   position: relative;
   width: 220px;
@@ -2564,6 +2578,22 @@ span.price {
   bottom: 39px;
   background-image: url(../images/mob/Ellipse49.svg);
   background-repeat: no-repeat;
+}
+
+.course__signature--autumn::before {
+  bottom: 32px;
+}
+
+.course__signature--spring {
+  width: 215px;
+}
+
+.course__signature--spring::before {
+  bottom: 21px;
+}
+
+.course__signature--winter::before {
+  bottom: 21px;
 }
 
 .course__secondsignature {
@@ -2683,6 +2713,14 @@ span.price {
   line-height: 14px;
   margin-left: 94px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.course__list {
+  padding-bottom: 36px;
+}
+
+.course__item {
+  padding-bottom: 18px;
 }
 
 .gallery {
