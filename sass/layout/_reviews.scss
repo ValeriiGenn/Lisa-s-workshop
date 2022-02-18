@@ -1,8 +1,33 @@
 .reviews {
-    padding-top: 30px;
-    
-   &__title{
-      font-weight:600;
-       color:var(--ttrev-color);
-   }
+  padding-top: 30px;
+
+  &__title {
+    font-weight: 600;
+    margin-bottom: 61px;
+    color: var(--ttrev-color);
+  }
+  &__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__wrapp {
+    width: 217px;
+    height: 257px;
+    padding: 8px 5px 6px;
+    background-color: var(--name-color);
+  }
+  &__image {
+    width: 207px;
+    height: 243px;
+  }
+  &__link {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: var(--name-color);
+  }
+  &__icon {
+    fill: var(--white-color);
+  }
 }
