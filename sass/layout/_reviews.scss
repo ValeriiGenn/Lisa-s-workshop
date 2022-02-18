@@ -1,6 +1,6 @@
 .reviews {
   padding-top: 30px;
-
+  padding-bottom: 48px;
   &__title {
     font-weight: 600;
     margin-bottom: 61px;
@@ -15,19 +15,43 @@
     width: 217px;
     height: 257px;
     padding: 8px 5px 6px;
+    //margin-right: 25px;
+    //margin-left: 25px;
+    margin: 0 25px 30px;
     background-color: var(--name-color);
+  }
+  &__svg {
+    fill: var(--white-color);
+  }
+  &__icn {
+    width: 6px;
+    height: 1px;
   }
   &__image {
     width: 207px;
     height: 243px;
   }
   &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 14px;
     height: 14px;
     border-radius: 7px;
     background-color: var(--name-color);
+    &--left {
+      transform: rotate(180deg);
+    }
   }
-  &__icon {
-    fill: var(--white-color);
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-right: 6px;
+    }
   }
 }
