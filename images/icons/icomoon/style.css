@@ -1,0 +1,72 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-Ellipse73 {
+  width: 1.099609375em;
+}
+
+.icon-Arrow1m {
+  width: 2em;
+}
+
+.icon-Arrow4m {
+  width: 7em;
+}
+
+.icon-Ellipse11m {
+  width: 0.888671875em;
+}
+
+.icon-Ellipse12m {
+  width: 0.888671875em;
+}
+
+.icon-Ellipse13m {
+  width: 0.888671875em;
+}
+
+.icon-Ellipse14m {
+  width: 0.888671875em;
+}
+
+.icon-Ellipse15m {
+  width: 0.888671875em;
+}
+
+.icon-Ellipse16m {
+  width: 0.888671875em;
+}
+
+.icon-Ellipse44m {
+  width: 1.9375em;
+}
+
+.icon-MaskGroupm {
+  width: 1.7744140625em;
+}
+
+.icon-MaskGrouptopm {
+  width: 2.2919921875em;
+}
+
+.icon-Rectangle28m {
+  width: 0.9375em;
+}
+
+.icon-Unionm {
+  width: 2.599609375em;
+}
