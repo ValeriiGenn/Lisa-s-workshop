@@ -2727,8 +2727,6 @@ span.price {
 .gallery {
   max-width: 100%;
   display: block;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #fff5f6), color-stop(40%, #fff), color-stop(0, #fff));
-  background-image: linear-gradient(#fff5f6 40%, #fff 40%, #fff 0);
   padding: 0;
   margin: 0 auto;
   /*&__container {
@@ -2741,7 +2739,7 @@ span.price {
     }*/
 }
 
-.gallery__flex {
+.gallery__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2750,7 +2748,7 @@ span.price {
 }
 
 @media screen and (min-width: 1200px) {
-  .gallery__flex {
+  .gallery__list {
     margin-left: -190px;
   }
 }
@@ -2788,6 +2786,10 @@ span.price {
 .gallery__image--seven, .gallery__image--eight, .gallery__image--nine {
   width: 92px;
   height: 85px;
+}
+
+.gallery__wrap-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .reviews {

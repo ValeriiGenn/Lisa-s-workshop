@@ -1,7 +1,7 @@
 .gallery {
   max-width: 100%;
   display: block;
-  background-image: linear-gradient(#fff5f6 40%, #fff 40%, #fff 0);
+  //background-image: linear-gradient(#fff5f6 40%, #fff 40%, #fff 0);
   padding: 0;
   margin: 0 auto;
   /*&__container {
@@ -12,7 +12,7 @@
             padding: 0 115px;
         }
     }*/
-  &__flex {
+  &__list {
     display: flex;
     //overflow: hidden;
     //margin-left: -50px;
@@ -22,6 +22,9 @@
       margin-left: -190px;
       //margin-right: -115px;
     }
+  }
+  &__item {
+    &: not(: );
   }
   &__picture {
   }
@@ -55,6 +58,11 @@
     &--nine {
       width: 92px;
       height: 85px;
+    }
+  }
+  &__wrap-item {
+    &:not(:last-child) {
+      margin-bottom: 9px;
     }
   }
 }
