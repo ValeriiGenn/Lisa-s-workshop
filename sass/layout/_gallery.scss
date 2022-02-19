@@ -1,35 +1,60 @@
 .gallery {
-    max-width: 100%;
-    display: block;
-    background-image: linear-gradient(#fff5f6 40%, #fff 40%, #fff 0);
-    padding: 0;
-    margin: 0 auto;
-    &__container {
+  max-width: 100%;
+  display: block;
+  background-image: linear-gradient(#fff5f6 40%, #fff 40%, #fff 0);
+  padding: 0;
+  margin: 0 auto;
+  /*&__container {
         width: 364px;
-        @media screen and (min-width: 768px) {
-            width: 768px;
-            padding: 0 24px;
-        }
+       
         @media screen and (min-width: 1200px) {
             width: 1200px;
             padding: 0 115px;
         }
+    }*/
+  &__flex {
+    display: flex;
+    //overflow: hidden;
+    //margin-left: -50px;
+    //margin-right: -20px;
+    flex-wrap: wrap;
+    @media screen and (min-width: 1200px) {
+      margin-left: -190px;
+      //margin-right: -115px;
     }
-    &__flex {
-        display: flex;
-        overflow: hidden;
-        margin-left: -50px;
-        //margin-right: -20px;
-        @media screen and (min-width: 768px) {
-            margin-left: -20px;
-            // margin-right: -24px;
-        }
-        @media screen and (min-width: 1200px) {
-            margin-left: -190px;
-            //margin-right: -115px;
-        }
+  }
+  &__picture {
+  }
+  &__image {
+    &--one {
+      width: 182px;
+      height: 263px;
     }
-    &__picture {
-        margin: 0 auto;
+    &--twoo {
+      width: 104px;
+      height: 82px;
     }
+    &--three {
+      width: 104px;
+      height: 82px;
+    }
+    &--four {
+      width: 104px;
+      height: 82px;
+    }
+    &--five {
+      width: 182px;
+      height: 117px;
+    }
+    &--six {
+      width: 104px;
+      height: 117px;
+    }
+    &--seven,
+    &--eight,
+    &--nine {
+      width: 92px;
+      height: 85px;
+    }
+  }
 }
