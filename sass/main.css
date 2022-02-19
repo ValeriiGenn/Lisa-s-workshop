@@ -2737,6 +2737,9 @@ span.price {
             padding: 0 115px;
         }
     }*/
+  /*&__item {
+    &: not(: );
+  }*/
 }
 
 .gallery__list {
