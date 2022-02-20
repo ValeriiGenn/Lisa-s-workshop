@@ -2729,6 +2729,12 @@ span.price {
   display: block;
   padding: 0;
   margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 78px;
+  background-image: url(../images/mob/Ellipse77.svg), url(../images/mob/Ellipse78.svg), url(/images/mob/Ellipse79.svg), url(../images/mob/Recgle50.svg);
+  background-position: 98px 581px, 158px 581px, 277px 581px, 277px 581px;
+  background-size: 60px, 119px, 54px, 62px;
+  background-repeat: no-repeat;
   /*&__container {
         width: 364px;
        
@@ -2737,15 +2743,20 @@ span.price {
             padding: 0 115px;
         }
     }*/
-  /*&__item {
-    &: not(: );
-  }*/
+}
+
+.gallery__title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 26px;
+  color: var(--ttrev-color);
 }
 
 .gallery__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: -9px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -2754,6 +2765,11 @@ span.price {
   .gallery__list {
     margin-left: -190px;
   }
+}
+
+.gallery__item:not(:last-child) {
+  margin-right: 9px;
+  margin-bottom: 9px;
 }
 
 .gallery__image--one {
@@ -2793,6 +2809,16 @@ span.price {
 
 .gallery__wrap-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.gallery__wrapp-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__wrapp-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .reviews {
