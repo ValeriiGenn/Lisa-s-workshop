@@ -2992,6 +2992,17 @@ span.price {
 
 .feedback {
   padding-top: 26px;
+  /*&::after {
+      position: absolute;
+      content: "";
+      width: 11.28px;
+      height: 7px;
+      right: 0px;
+      bottom: 0px;
+      background-image: url(../images/mob/arrbott.svg);
+      background-repeat: no-repeat;
+      background-size: 11px;
+    }*/
   /*&__hidden{
     position: relative;
     min-width: 100%;
@@ -3023,6 +3034,7 @@ span.price {
 }
 
 .feedback__item {
+  position: relative;
   padding: 9px 0px;
   border-bottom: 0.4px solid var(--black-color);
 }
@@ -3032,17 +3044,16 @@ span.price {
   font-size: 12px;
   line-height: 17px;
   color: var(--black-color);
+  background-image: url(../images/mob/arrbott.svg);
+  background-position: 281px 6px;
+  background-size: 11px;
+  background-repeat: no-repeat;
 }
 
-.feedback__guestions::after {
-  position: absolute;
-  content: "";
-  width: 11.28px;
-  height: 7px;
-  right: 0px;
-  bottom: 0px;
-  background-image: url(../images/mob/arrbott.svg);
+.feedback__guestions:hover {
+  background-image: url(../images/mob/arrtop.svg);
   background-repeat: no-repeat;
+  background-position: 281px 6px;
   background-size: 11px;
 }
 
@@ -3054,20 +3065,60 @@ span.price {
   padding-bottom: 9px;
 }
 
-.feedback__o-hide {
-  display: none;
-  -webkit-transition: all ease 0.8s;
-  transition: all ease 0.8s;
+#menu #list {
+  height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+  background: #d5d5d5;
 }
 
-.feedback__o-hide:hover {
-  display: block;
+#menu:hover #list {
+  height: auto;
+  -webkit-transition: max-height 0.25s ease-in;
+  transition: max-height 0.25s ease-in;
 }
 
-.feedback__o-hide p {
-  display: block;
-  margin: 0;
-  padding: 0;
+#two #second {
+  height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+  background: #d5d5d5;
+}
+
+#two:hover #second {
+  height: auto;
+  -webkit-transition: max-height 0.25s ease-in;
+  transition: max-height 0.25s ease-in;
+}
+
+#three #thirds {
+  height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+  background: #d5d5d5;
+}
+
+#three:hover #thirds {
+  height: auto;
+  -webkit-transition: max-height 0.25s ease-in;
+  transition: max-height 0.25s ease-in;
+}
+
+#four #fourth {
+  height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+  background: #d5d5d5;
+}
+
+#four:hover #fourth {
+  height: auto;
+  -webkit-transition: max-height 0.25s ease-in;
+  transition: max-height 0.25s ease-in;
 }
 
 #scrollup.mgray {
