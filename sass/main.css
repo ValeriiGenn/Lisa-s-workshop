@@ -36,7 +36,8 @@ body {
 }
 
 :root {
-  --bgfoo-color: #8cc4e7;
+  --bgfoo-color: #1789ed;
+  --bgfoo1-color: #8cc4e7;
   --ttrev-color: #002d53;
   --brdr-color: #7538ff;
   --yellou-color: #fdc812;
@@ -3456,12 +3457,19 @@ span.price {
 }
 
 .footer__wrap {
-  width: 80px;
+  width: 85px;
   padding: 10px;
+  margin-bottom: 7px;
 }
 
 .footer__logo--img {
+  width: 65px;
   margin-bottom: 5px;
+}
+
+.footer__logo--use {
+  width: 40px;
+  height: 35px;
 }
 
 .footer__logo--text {
@@ -3469,6 +3477,39 @@ span.price {
   line-height: 4px;
   text-transform: uppercase;
   color: var(--black-color);
+}
+
+.footer__wrapp {
+  width: 115px;
+  margin-left: 15px;
+  padding-bottom: 56px;
+}
+
+.footer__contact {
+  margin-bottom: 7px;
+}
+
+.footer__contact--link {
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--white-color);
+}
+
+.footer__list-ellipse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 7px;
+}
+
+.footer__text {
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--white-color);
 }
 
 /*@media screen and (min-width: 768px) {
